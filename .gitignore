@@ -57,3 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# for this project
+build/public/js/app.js
+build/public/index.html
+build/app.js
+build/db.json
+build/index.js
