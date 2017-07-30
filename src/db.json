@@ -1,7 +1,208 @@
 {
-  "users": [
+  "airports": [
     {
-      "name": "Alex Sears"
+      "id": 1,
+      "name": "Los Angeles International Airport",
+      "latitude": "33.941740",
+      "longitude": "-118.408702",
+      "timezone": "PDT"
+    },
+    {
+      "id": 2,
+      "name": "John F. Kennedy International Airport",
+      "latitude": "40.641240",
+      "longitude": "-73.778172",
+      "timezone": "EDT"
+    },
+    {
+      "id": 3,
+      "name": "Orlando International Airport",
+      "latitude": "28.431148",
+      "longitude": "-81.308265",
+      "timezone": "EDT"
+    },
+    {
+      "id": 4,
+      "name": "O'Hare International Airport",
+      "latitude": "41.974139",
+      "longitude": "-87.907397",
+      "timezone": "CDT"
+    }
+  ],
+  "flights": [
+    {
+      "id": 1,
+      "departureAirportId": 1,
+      "arrivalAirportId": 4,
+      "departureTime": "2017-10-12T06:00:00-04:00",
+      "arrivalTime": "2017-10-12T09:00:00-04:00"
+    },
+    {
+      "id": 2,
+      "departureAirportId": 1,
+      "arrivalAirportId": 2,
+      "departureTime": "2017-10-12T14:00:00-04:00",
+      "arrivalTime": "2017-10-12T019:00:00-04:00"
+    },
+    {
+      "id": 3,
+      "departureAirportId": 3,
+      "arrivalAirportId": 1,
+      "departureTime": "2017-10-12T12:32:00-04:00",
+      "arrivalTime": "2017-10-12T016:32:00-04:00"
+    },
+    {
+      "id": 4,
+      "departureAirportId": 4,
+      "arrivalAirportId": 3,
+      "departureTime": "2017-10-12T11:00:00-04:00",
+      "arrivalTime": "2017-10-12T013:15:00-04:00"
+    },
+    {
+      "id": 5,
+      "departureAirportId": 4,
+      "arrivalAirportId": 2,
+      "departureTime": "2017-10-12T18:00:00-04:00",
+      "arrivalTime": "2017-10-12T20:00:00-04:00"
+    },
+    {
+      "id": 6,
+      "departureAirportId": 2,
+      "arrivalAirportId": 1,
+      "departureTime": "2017-10-12T21:45:00-04:00",
+      "arrivalTime": "2017-10-12T02:45:00-04:00"
+    },
+    {
+      "id": 7,
+      "departureAirportId": 2,
+      "arrivalAirportId": 3,
+      "departureTime": "2017-10-12T08:15:00-04:00",
+      "arrivalTime": "2017-10-12T11:15:00-04:00"
+    },
+    {
+      "id": 8,
+      "departureAirportId": 1,
+      "arrivalAirportId": 3,
+      "departureTime": "2017-10-12T16:25:00-04:00",
+      "arrivalTime": "2017-10-12T21:55:00-04:00"
+    }
+  ],
+  "passengers": [
+    {
+      "name": "Julius Tunnicliff",
+      "flightId": 2
+    },
+    {
+      "name": "Harlon Finkel",
+      "flightId": 5
+    },
+    {
+      "name": "Tomkin Hey",
+      "flightId": 6
+    },
+    {
+      "name": "Leverett Gooden",
+      "flightId": 2
+    },
+    {
+      "name": "Leland Maples",
+      "flightId": 8
+    },
+    {
+      "name": "Landis Etheredge",
+      "flightId": 7
+    },
+    {
+      "name": "Gifferd Becraft",
+      "flightId": 5
+    },
+    {
+      "name": "Arnott Donn",
+      "flightId": 6
+    },
+    {
+      "name": "Gerrit Potvin",
+      "flightId": 5
+    },
+    {
+      "name": "Reynard Eyres",
+      "flightId": 7
+    },
+    {
+      "name": "Estrid Nore",
+      "flightId": 6
+    },
+    {
+      "name": "Helen Peel",
+      "flightId": 3
+    },
+    {
+      "name": "Odalys Teer",
+      "flightId": 5
+    },
+    {
+      "name": "Selma Berriman",
+      "flightId": 1
+    },
+    {
+      "name": "Suzette Copass",
+      "flightId": 4
+    },
+    {
+      "name": "Cheyenne Phillip",
+      "flightId": 4
+    },
+    {
+      "name": "Xandra Osman",
+      "flightId": 1
+    },
+    {
+      "name": "Livvi Queen",
+      "flightId": 6
+    },
+    {
+      "name": "Anita Wisbey",
+      "flightId": 3
+    },
+    {
+      "name": "Susanna SandalAlden Jay",
+      "flightId": 1
+    },
+    {
+      "name": "Gerrell Cutler",
+      "flightId": 3
+    },
+    {
+      "name": "Alvyn Happe",
+      "flightId": 4
+    },
+    {
+      "name": "Kelsey Wileman",
+      "flightId": 8
+    },
+    {
+      "name": "Ryley Wescott",
+      "flightId": 4
+    },
+    {
+      "name": "Bonifatius Goodall",
+      "flightId": 2
+    },
+    {
+      "name": "Maik Blackard",
+      "flightId": 2
+    },
+    {
+      "name": "Giacomo Tutton",
+      "flightId": 2
+    },
+    {
+      "name": "Gerrit Tennant",
+      "flightId": 8
+    },
+    {
+      "name": "Cecco Butner",
+      "flightId": 1
     }
   ]
 }
